@@ -1,2 +1,2 @@
 # QR-code
-QR-code using HTML ,CSS and JavaScript
+QR-code using HTML ,CSS & JavaScript
