@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code generator</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="content-data">
+        <p><i class='bx bx-qr'></i> QR-Generator</p>
+        <textarea id="input_qr_text" cols="30" rows="10" placeholder="Write some text.."></textarea>
+
+        <div class="qr_code_view_area hide_view">
+            <img id="qr_code_img" alt="qr code">
+        </div>
+
+        <div class="control_btns">
+            <button class="generate_qr_btn">Generate <i class='bx bx-chevron-right' ></i></button>
+            <button class="download_qr_btn disable_btn">Download <i class='bx bxs-download' ></i></button>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
